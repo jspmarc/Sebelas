@@ -1,8 +1,5 @@
 # Sebelas
 
-[toc]
-
-
 # Hasil meet 30 Juli 2020
 ## Fitur:
 1. Diberikan forum diskusi  -> Bisa konsul dosen/pengajar
@@ -18,6 +15,9 @@
 5. Untuk weakness soal materi yg kurang, bisa kerjasama dg dosen (karena mereka harusnya udah ada)
 6. Untuk threat yg masih perlu internet, mungkin bisa disediakan "paket" yg bisa didownload yg berisi materi, soal, dan qna (yg sering ditanyakan), mirip CD Zenius gitu kalo kalian tau. Kalau untuk forum diskusi kayanya masih susah untuk direalisasikan bisa offline
 7. Ini bayar gak??? Mungkin bisa dipertimbangkan buat jadi keunggulan dibanding platform lain
+
+## Jawaban atas pertanyaan kating
+1. ga dijawab heheheheheh kita kontempletasikan saja heheheh
 
 ## Saran
 - Pelajarin lagi cara presentasii sesuai waktu, takutnya ada poin penting dari kalian yg ga tersampaikan. Jangan baca bgt ke slide-nya, coba latiihan dulu sblm presentasi
@@ -47,17 +47,17 @@ Coba baca: https://biteable.com/blog/how-to-make-good-presentation/ (atau cari s
 * Front page + landing page course + base file -> 1 orang
     * Jafar
 * Course & My course -> 1 orang
-    *
+    * Fawwaz
 * Material -> 1 orang
     * Wilson
 * Show problems & add problems -> 1 orang
     * Josep
 * Add course & enroll -> 1 orang
-    *
+    * Raihan
 * landing page forum -> 1 orang
     * Alief
 * Add forum question -> 1 orang
-    *
+    * hanny
 * Show forum question -> 1 orang
     * Richie
 
