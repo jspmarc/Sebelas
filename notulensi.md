@@ -2,10 +2,11 @@
 
 # Hasil meet 30 Juli 2020
 ## Fitur:
-1. Diberikan forum diskusi  -> Bisa konsul dosen/pengajar
-2. Materi bisa di download, jadi bisa offline
-3. Pengajar bisa ngepost pr/tugas
-4. Kumpulan courses yang dapat dipilih (tidak hanya materi pembelajaran, bisa juga courses untuk mental health, pertanian, dan sebagainya.) baik untuk umum, maupun yang menggunakan kode (spesifik untuk 1 kelas)
+1. Materi bisa didownload
+2. Materi dan courses bisa bersifat private/public shg institut akademik yang belum memiliki platform e-learning bisa memanfaatkan layanan kami
+3. Adanya forum diskusi
+4. Karena sifat courses yang bisa publik/private, siapa saja dapat membuat course nya sendiri sehingga course yang disediakan beragam
+5. Pengajar dapat memberikan pr/tugas
 
 ## Pertanyaan kating
 1. Kelebihan dibandingkan platform course online lainnya apa?
