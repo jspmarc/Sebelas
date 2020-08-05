@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -17,8 +19,8 @@
     <div id="navigation">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean-search" style="padding: 16px;margin-left: 0;color: rgb(0,0,0);background-color: #09b1ec;">
             <div class="container"><a class="navbar-brand" href="#home" style="font-size: 25px;font-family: Raleway, sans-serif;">Eleven</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation">
                             <form class="form-inline mx-auto" target="_self">
@@ -30,12 +32,48 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Forum</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);"><i class="fa fa-gear"></i>&nbsp;Settings</a></li>
                     </ul>
+                </div>
             </div>
+        </nav>
     </div>
-    </nav>
-    </div>
-    <div class="container" style="background-color: #f90000;">
-        <header>test</header>
+    <div class="container" id="question-form" style="padding-top: 37px;margin-top: 79px;">
+        <h1 class="question-no" style="padding-left: 55px;">Add Question</h1>
+        <div class="row row-cols-2" style="margin-top: 11px;">
+            <div class="col-2 d-inline-flex flex-column justify-content-center align-items-center align-content-center align-self-center add-image" style="padding-top: 7px;">
+                <div class="dropdown" style="background-color: #09b1ec;color: rgb(0,0,0);"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="color: rgb(0,0,0);background-color: rgb(9,177,236);">1 </button>
+                    <div class="dropdown-menu" role="menu" style="background-color: rgb(9,177,236);"><a class="dropdown-item" role="presentation" href="#">2</a><a class="dropdown-item" role="presentation" href="#">3</a><a class="dropdown-item" role="presentation" href="#">4</a><a class="dropdown-item" role="presentation" href="#">5</a></div>
+                </div><i class="far fa-image add-image-icon"></i>
+                <p>Add an image</p>
+            </div>
+            <div class="col-10 question-form">
+                <form><textarea class="form-control" style="height: 103px;"></textarea></form>
+            </div>
+            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">a.</span>
+                <div class="d-flex flex-column add-image" style="margin-left: 9px;"><i class="far fa-image add-image-icon"></i>
+                    <p>Add an image</p>
+                </div>
+                <form class="choice-form" style="padding-left: 0px;padding-top: 22px;margin-left: 21px;"><input class="form-control" type="text" style="padding-left: 24px;"></form>
+            </div>
+            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">b.</span>
+                <div class="d-flex flex-column add-image" style="margin-left: 9px;"><i class="far fa-image add-image-icon"></i>
+                    <p class="add-image-text">Add an image</p>
+                </div>
+                <form class="choice-form" style="padding-left: 0px;padding-top: 22px;margin-left: 21px;"><input class="form-control" type="text" style="padding-left: 24px;"></form>
+            </div>
+            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">c.</span>
+                <div class="d-flex flex-column add-image" style="margin-left: 9px;"><i class="far fa-image add-image-icon"></i>
+                    <p>Add an image</p>
+                </div>
+                <form class="choice-form" style="padding-left: 0px;padding-top: 22px;margin-left: 21px;"><input class="form-control" type="text" style="padding-left: 24px;"></form>
+            </div>
+            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">d.</span>
+                <div class="d-flex flex-column add-image" style="margin-left: 9px;"><i class="far fa-image add-image-icon"></i>
+                    <p class="add-image-text">Add an image</p>
+                </div>
+                <form class="choice-form" style="padding-left: 0px;padding-top: 22px;margin-left: 21px;"><input class="form-control" type="text" style="padding-left: 24px;"></form>
+            </div>
+        </div>
+        <div style="margin-top: 11px;"><button class="btn btn-primary" type="button" style="margin-right: 50%;color: rgb(0,0,0);background-color: rgb(9,177,236);">Save changes</button></div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
