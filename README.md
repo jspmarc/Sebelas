@@ -1,6 +1,8 @@
 # SEBELAS <a name="top"></a>
 Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 
+[**CARA BIKIN**](./docs/cara-kerja.md)
+
 ---
 
 ### Daftar isi

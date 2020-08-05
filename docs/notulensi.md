@@ -40,7 +40,7 @@ Coba baca: https://biteable.com/blog/how-to-make-good-presentation/ (atau cari s
         * Add question => mirip sama add course, <form> aja
     * User settings => Yha biasa la a
 
-## Pembagian tugas
+## Pembagian tugas <a name="tugas"></a>
 * Desain -> 3 orang
     * Alex
     * Nicho
