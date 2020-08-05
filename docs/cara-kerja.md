@@ -8,11 +8,10 @@
 3. Kalau mau pake boostrap studio
     1. Download & install bootstrap studio
     1. Buka file `bsdesign-files/home.bsdesign` di bootstrap studio
-    1. Di kiri atas ada `index.html`, diklik
-    1. Tambahin page baru
-    1. Copy `div` pertama di `index.html`
-    1. Klik kanan di page baru
-    1. Paste -> paste inside
+    1. Save as file baru (pake nama file yang jelas ya)
+    1. Delete `index.html` (kanan bawah)
+    1. Rename `base.html` jadi nama laman kalian
+    1. Kalau udah selesai jangan lupa di-export
 1. Kalau ga mau pake Bootstrap Studio
     1. Copy dan rename `base.html` jadi file HTML baru
     1. Edit file itu
