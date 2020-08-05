@@ -6,13 +6,19 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 ---
 
 ### Daftar isi
-* [Pembagian tugas](#penugasan)
+* [Pembagian tugas](#kontribusi)
 * [Cara menggunakan layanan kami](#pemakaian)
 
 ---
 
-# Pembagian Tugas<a name="penugasan"></a>
-* b r u h
+# Kontribusi<a name="kontribusi"></a>
+* Muhammad Jafar Gundari (16519070):
+  * index.html
+  * base.html (nav-bar)
+* Wilson Tandya (16519228):
+  * CourseMaterial.html
+* Josep Marcello (16519170):
+  * probs\_add.html
 
 # Cara penggunaan<a name="pemakaian"></a>
 * B R U H
