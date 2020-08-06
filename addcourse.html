@@ -15,14 +15,19 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
+        .content-wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 5em;
+        }
         .breadcrumb {
             margin-bottom: 0 !important;
-            padding-top: 6em;
             background-color: transparent !important;
         }
         .form-add {
             padding: 20px;
             background: #fff;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -50,52 +55,54 @@
     </div>
     </nav>
     </div>
-    <div class="breadcrumb">
-       <h1>Kelas > Buat Kelas</h1>
-    </div>
-    <div class="form-add">
-        <div class="container">
-            <div class="row mb-3">
-              <div class="col-2">
-                  <div class="text-center align-middle d-table-cell" style="background: #ccc; width: 120px; height: 120px;">
-                    Masukkan Gambar Disini
-                  </div>
-              </div>
-              <div class="col-8">
-                <div class="form-group">
-                    <label>Nama Kelas</label>
-                    <input type="text" class="form-control w-50">
-                </div>
-              </div>
-              <div class="col-2 text-center">
-                  <div class="mb-2">
-                    <button type="button" class="btn btn-success px-5">Buat</button>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                      Auto Enroll
-                    </label>
-                  </div>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label>Deskripsi kelas ini</label>
-                        <textarea class="form-control" rows="3"></textarea>
+    <div class="content-wrapper">
+      <div class="breadcrumb">
+        <h1>Kelas > Buat Kelas</h1>
+      </div>
+      <div class="form-add">
+          <div class="container">
+              <div class="row mb-3">
+                <div class="col-2">
+                    <div class="text-center align-middle d-table-cell" style="background: #ccc; width: 120px; height: 120px;">
+                      Masukkan Gambar Disini
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label>Apa yang akan dipelajari?</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                <div class="col-8">
+                  <div class="form-group">
+                      <label>Nama Kelas</label>
+                      <input type="text" class="form-control w-50">
+                  </div>
+                </div>
+                <div class="col-2 text-center">
+                    <div class="mb-2">
+                      <button type="button" class="btn btn-success px-5">Buat</button>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        Auto Enroll
+                      </label>
                     </div>
                 </div>
-            </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <label>Deskripsi kelas ini</label>
+                          <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <label>Apa yang akan dipelajari?</label>
+                          <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                  </div>
+              </div>
           </div>
+      </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
