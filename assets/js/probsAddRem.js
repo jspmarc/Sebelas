@@ -1,4 +1,4 @@
-document.getElementById("add-no-item").onclick = () => {
+document.getElementById("add-no-item").addEventListener("click", () => {
   // Selects the dropdown menu
   let dropMenu = document.getElementById("question-no-menu");
 
@@ -7,19 +7,19 @@ document.getElementById("add-no-item").onclick = () => {
 
   // Creating the new item (tags and attributes)
   let newOpt = document.createElement("a");
-  newOpt.setAttribute("class", "dropdown-item question-no-item");
-  newOpt.setAttribute("id", `${Number(lastNo)+1}`);
+  newOpt.classList.add(["dropdown-item", "question-no-item"])
+  newOpt.id = Number(lastNo)+1;
   newOpt.setAttribute("role", "presentation");
 
   // Filling the new item with a number
-  newOpt.innerHTML = Number(lastNo)+1;
+  newOpt.innerText = Number(lastNo)+1;
 
   // Adds the new item to the dropdown menu
   // dropMenu.appendChild(newOpt);
   dropMenu.insertBefore(newOpt, document.getElementById("question-no-menu").lastChild);
-};
+});
 
-document.getElementById("remove-no-item").onclick = () => {
+document.getElementById("remove-no-item").addEventListener("click", () => {
   // Memastikan user tidak salah  click
   if (!window.confirm('Yakin menghapus soal ini?')) return;
   else {
@@ -39,4 +39,4 @@ document.getElementById("remove-no-item").onclick = () => {
     // Menghapus elemen
     dropMenu.removeChild(document.getElementById(lastNo));
   }
-};
+});
