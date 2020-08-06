@@ -113,36 +113,43 @@
   background-color: transparent;
 }
 
-.card-title {
+.h1 .question-no {
+  color: #000000;
 }
 
-img {
-  padding: 5px;
-  /*width: 25px;*/
+.question-no {
+  color: black;
 }
 
-.card-body {
-  background-color: #E5E5E5;
-}
-
-.card-title {
+.far.fa-image.add-image-icon {
+  font-size: 40px;
   text-align: center;
 }
 
-.col-4 {
-  padding: 10px;
+.choice-numbering {
+  color: black;
 }
 
-p {
-  text-align: initial;
-  padding-top: 5px;
+.add-image {
+  color: black;
 }
 
-.col-auto.text-center {
-  align-items: center;
+.btn.btn-primary.transition {
+  transition: .2s ease-in-out !important;
 }
 
-.col-auto.text-center.align-self-center.m-auto {
-  padding: 1px;
+.btn.btn-primary.button-submit:hover {
+  background-color: #03688b !important;
+  color: white !important;
+}
+
+button-delete:hover {
+  background-color: #670a04 !important;
+  color: white;
+}
+
+.button-delete:hover {
+  background-color: #a60d04 !important;
+  color: white !important;
 }
 
