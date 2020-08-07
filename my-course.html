@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    .kelas {
+        font-size: 50px;
+        padding-top: 2em;
+        background-color: #E2E1E1;
+        border: none;
+        margin: auto 4em;
+    }
+    .selesai {
+        background-color: #E2E1E1;
+        font-size: 20px;
+        padding-right: 3em;
+        margin: auto 1em;
+        padding-left: 1em;
+        border: none;
+    }
+    .selesai::after {
+        content: " 2  ";
+        background-color: aqua;
+        border-radius: 50%;
+        position: relative;
+        top: 1px;
+        left: 5px;
+    }
+    .proses {
+        border: none;
+        background-color: #E2E1E1;
+        font-size: 20px;
+        position: relative;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .proses::after {
+        content: "  3  ";
+        background-color: aqua;
+        border-radius: 50%;
+        position: relative;
+        top: 1px;
+        left: 5px;
+    }.semua {
+        border: none;
+        background-color: #E2E1E1;
+        font-size: 20px;
+        padding-right: 1em;
+        padding-left: 5em;
+    }
+    .semua::after {
+        content: "  5  ";
+        background-color:teal;
+        border-radius: 50%;
+        position: relative;
+        top: 1px;
+        left: 5px;
+    }
+
+    .card-1 {
+    float:left;
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 5px;
+    padding: 4px;
+    height: 20em;
+    left: 10em;
+    right: 10em;
+    margin-left: 2em;
+    margin-bottom: 2em;;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url("https://images4.alphacoders.com/292/thumb-1920-292208.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%;     
+    }
+    .card-2 {
+    float:left;
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 5px;
+    padding: 4px;
+    height: 20em;
+    left: 10em;
+    right: 10em;
+    margin-left: 2em;
+    margin-bottom: 2em;;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url("https://previews.123rf.com/images/tanik/tanik0912/tanik091200233/6032946-spring-landscape-in-sunny-weather-watercolor-art-illustration-.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%; 
+    }
+    .card-3 {
+    float:left;
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 5px;
+    padding: 4px;
+    height: 20em;
+    left: 10em;
+    right: 10em;
+    margin-left: 2em;
+    margin-bottom: 2em;;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url("https://namenu.ru/utils/preview/fa1f4/upload/news/files/5d3c580144690/5d3c457daad3c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%; 
+    }
+    .card-4 {
+    float:left;
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    position: relative;
+    margin: 10px 5px;
+    padding: 4px;
+    height: 20em;
+    left: 10em;
+    right: 10em;
+    margin-left: 2em;
+    margin-bottom: 2em;;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c2a92762487fde1a5271c03/1546314561913-VHSOM49WNAPBSS0JWGM5/ke17ZwdGBToddI8pDm48kGCZx9uGvi3XRtzinyxplE5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxn2iux9sk8oS8UG6Bz84u8q9pZWhF1IVrR0KHPuNS3Vr4sQ3Hr4BvmUvV3cJH8eqo/GROUP+TX.png");
+    background-repeat: no-repeat;
+    background-size: 100% 45%; 
+    }
+    .card-5 {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    position: relative;
+    margin: auto 12em;
+    height: 20em;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url("https://i.pinimg.com/originals/ed/45/5f/ed455fac0fd69c4edb83296b13fa26ee.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45%; 
+    }
+    .judul {
+        font-size: 20px;
+        margin-top: 7.5em;
+        margin-left: 1em;
+        position: relative;
+        font-weight: bold;
+    }
+    .isi {
+        font-size: 13px;
+        margin-left: 1em;
+    }
+    .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .selesai:hover, .semua:hover, .proses:hover {
+        transform: scale(1.02);
+    }
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Kelasku</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div id="navigation">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean-search" style="padding: 16px;margin-left: 0;color: rgb(0,0,0);background-color: #09b1ec;">
+            <div class="container"><a class="navbar-brand" href="#home" style="font-size: 25px;font-family: Raleway, sans-serif;">Eleven</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation">
+                            <form class="form-inline mx-auto" target="_self">
+                                <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Search here . . ." style="width: 350px;"><i class="fa fa-search" style="margin-left: 5px;"></i></div>
+                            </form>
+                        </li>
+                        <li class="nav-item" role="presentation" style="color: black;"><a class="nav-link" href="#" style="color: rgb(0,0,0);">My Course</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Course</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Forum</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);"><i class="fa fa-gear"></i>&nbsp;Settings</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+
+    <div>
+        <div>
+            <button class="kelas" href="#">Kelasku</button>
+            <button class="selesai" href="#">Selesai</button>
+            <button class="proses" href="#">Dalam Proses</button>
+            <button class="semua" href="#">Semua</button>
+        </div>
+        <div></div>
+        <button class="card-1" href="#">
+           <h1 class="judul" >Bercocok Tanam</h1>
+           <p class="isi">Mempelajari bagaimana cara agar sebuah kebun tertata rapi dan indah.</p>
+        </button>
+        <button class="card-2" href='#'>
+            <h1 class="judul" >Cat Air</h1>
+            <p class="isi">Membuat seni dengan cat air. Proporsi cat dan air, tips dan trik dengan cat air.</p>
+        </button>
+        <button class="card-3" href='#'>
+            <h1 class="judul" >Salad 101</h1>
+            <p class="isi">Mempelajari cara untuk membuat berbagai salad dengan banyak <i>dressing</i>.</p>
+        </button>
+        <button class="card-4" href='#'>
+            <h1 class="judul" >Memahami Orang Lain</h1>
+            <p class="isi">Bagaimana kita bisa mendengar dan memahami orang lain.</p>
+        </button>
+        <button class="card-5" href='#'>
+            <h1 class="judul" >Mengolah Tanah Liat</h1>
+            <p class="isi">Mengolah tanah liat menjadi bentuk yang indah. Itulah <i>pottery</i>.</p>
+        </button>
+    </div>
+</body>
+
+</html>

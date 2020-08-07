@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home</title>
+    <title>Enroll</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
-    <link rel="stylesheet" href="assets/css/styles-home.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .content-wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 5em;
+        }
+        .breadcrumb {
+            margin-bottom: 0 !important;
+            background-color: transparent !important;
+        }
+        .form-add {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+        }
+    </style>
 </head>
-
 <body>
     <div id="navigation">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean-search" style="padding: 16px;margin-left: 0;color: rgb(0,0,0);background-color: #09b1ec;">
@@ -32,7 +41,7 @@
                         <li class="nav-item" role="presentation">
                             <form class="form-inline mx-auto" target="_self">
                                 <div class="form-group"><label for="search-field"></label>
-                                    <div class="container-fluid d-flex align-items-stretch search-div"><input class="form-control search-field" type="search" id="search-field-2" name="search" placeholder="Cari di sini..." style="background-color: rgb(255,255,255);"><i class="fa fa-search d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center align-items-center align-items-sm-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                                    <div class="container-fluid d-flex align-items-stretch search-div"><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Cari di sini..." style="background-color: rgb(255,255,255);width: 350px;"><i class="fa fa-search d-lg-flex d-xl-flex align-items-lg-center justify-content-xl-center align-items-xl-center"
                                             style="background-color: #0a80aa;padding-right: 10px;padding-left: 12px;"></i></div>
                                 </div>
                             </form>
@@ -46,10 +55,30 @@
     </div>
     </nav>
     </div>
+    <div class="content-wrapper">
+        <div class="breadcrumb">
+            <h1>Self enrolment</h1>
+        </div>
+        <form class="form-add">
+                <div class="col-8">
+                    <div class="form-group">
+                        <p>Nama Kelas</p>
+                        <p>Nama Pengajar</p>
+                        <label>Enrolment key</label>
+                        <input type="text" class="form-control w-50">
+                    </div>
+                    </div>
+                    <div class="col-1 align-middle text-center">
+                        <div class="mb-2">
+                            <button type="submit" class="btn btn-primary">Enrol Me</button>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
 </body>
-
 </html>
