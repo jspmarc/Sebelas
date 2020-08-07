@@ -1,14 +1,11 @@
-<!Doctype HTML>
-<html>
-
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home</title>
+    <title>Eleven | Add Forum Question</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -17,9 +14,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+    /* untuk box pertanyaan */
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text], select, textarea {
+        width: 125%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        margin: 10px 25px;
+    }
+
+    .col-25 {
+        float: riht;
+        width: 25%;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .col-25, .col-75, .tombol, input[type=submit] #pilihan {
+            width: 70%;
+            margin-top: 0;
+            padding-top: 20px;
+        }
+    }
+
+    </style>
 </head>
 
-<body>
+<body style="background-color: honeydew;">
     <div id="navigation">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean-search" style="padding: 16px;margin-left: 0;color: rgb(0,0,0);background-color: #09b1ec;">
             <div class="container"><a class="navbar-brand" href="#home" style="font-size: 25px;font-family: Raleway, sans-serif;">Eleven</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -28,7 +60,7 @@
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation">
                             <form class="form-inline mx-auto" target="_self">
-                                <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Search here . . ." style="width: 350px;"><i class="fa fa-search" style="margin-left: 5px;"></i></div>
+                                <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Cari disini" style="width: 350px;"><i class="fa fa-search" style="margin-left: 5px;"></i></div>
                             </form>
                         </li>
                         <li class="nav-item" role="presentation" style="color: black;"><a class="nav-link" href="#" style="color: rgb(0,0,0);">My Course</a></li>
@@ -36,37 +68,55 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Forum</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);"><i class="fa fa-gear"></i>&nbsp;Settings</a></li>
                     </ul>
+                </div>
             </div>
+        </nav>
     </div>
-    </nav>
+    
+    <br><br><br><br><br>
+
+    <div class="container">
+        <nav id="pilihan" style="Padding : 10px;" >
+        <big><big><big><big><strong>Forum</strong></big></big></big></big>
+		<a href="#BuatForum" style="color: white; float:right; text-align: right;"><button class="button button1" style="border: none;color: white;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #3CB043;"><strong>Buat Forum</strong></button></a>&emsp;
+		</nav>
+    </div> 
+    <!-- pilihan menu -->
+    <div class="container"><strong>
+            <nav id="pilihan" style="background-color: white; Padding : 10px;" >
+                <button class="button button1" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #48D1CC;"><strong>Sedang Dibicarakan</strong></button>&emsp;
+                <button class="button button2" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #40E0D0;"><strong>Terbaru</strong></button>&emsp;
+                <button class="button button3" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #AFEEEE;"><strong>Teratas</strong></button>&emsp;
+                <a href="#MyCourse"><img src="./assets/img/sort_symbol.png" style="float: right; text-align: right"/></a>&nbsp;
+				<a href="#MyCourse" style="color: black; float:right; text-align: right;">Urutkan</a>&nbsp;
+            </nav></strong>
     </div>
+    <br>
+    
+    <!-- pertanyaan forum -->
+    <div class="container">
+		     <a href="#Upvote"><button class="button button1" style="cursor: pointer; border: none"><img src="./assets/img/upvote.jpg"/></button></a>
+		     <strong><b><big>134</big></b></strong>
+		     <a href="#Upvote"><button class="button button1" style="cursor: pointer; border: none"><img src="./assets/img/turun.png"/></button></a>
+		<div class="container" style="border: none;color: black;padding: 5px 15px;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: white">
+		   <div class="row">
+		       <div class="col"><b><big>Bercocok Tanam</b></h3></div>
+		       <div class="col"><small>oleh Alex</small></div></big>
+		   </div>
+		   <div class="row">
+		       <div class="col"><big><small>Bagaimana cara bercocok tanam?</small></div>
+		       <div class="col"> <img src="./assets/img/reply.jpg"> <b>2.3 K <img src="./assets/img/views.jpg"> 2.3 K
+			   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			   <small>Jul 20, 2020, 6:36 PM</small>
+		       </div>
+	   	   </div>
+    </div>
+	</div>	
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
 </body>
-
-</html>
-
-<body style="background-color: rgb(256,256,256);">
-    <br><br><br>
-    <h1><h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Forum</h1></h1> <pre>                                                                                                                                           <button type="submit">Buat Forum</button></pre>
-</body>
-
-<pre>
-
-               <button type="submit">Sedang Dibicarakan</button>    <button type="submit">Terbaru</button>    <button type="submit">Teratas</button>                                                                             <big><big>Urutkan</big></big> <img src="./assets/img/sort_symbol.png"/>
-</pre>
-
-<pre>
-               <img src="./assets/img/turun.png"/> <big><big><b>134</b></big></big> <img src="./assets/img/upvote.jpg"/>      <big><big><big><b>Bercocok Tanam</b></big></big></big>                                                                                    <big>oleh Alex</big>
-			         <big>Bagaimana cara saya membasmi hama?</big>                                        <img src="./assets/img/reply.jpg"/> <b><big>2.3 K</big></b> <img src=./assets/img/views.jpg> <b><big>2.3 K</big></b>     <big>Jul 20, 2020, 6:36 PM</big>
-               <img src="./assets/img/turun.png"/> <big><big><b>31</b></big></big> <img src="./assets/img/upvote.jpg"/>       <big><big><big><b>Kalkulus 2</b></big></big></big>                                                                                            <big>oleh Shafira</big>
-			         <big>Bagaimana cara mengerjakan soal ini?</big>                                      <img src="./assets/img/reply.jpg"/> <b><big>1.2 K</big></b> <img src=./assets/img/views.jpg> <b><big>1.8 K</big></b>     <big>Jul 20, 2020, 6:36 PM</big>
-               <img src="./assets/img/turun.png"/> <big><big><b>24</b></big></big> <img src="./assets/img/upvote.jpg"/>       <big><big><big><b>Kalkulus 1</b></big></big></big>                                                                                            <big>oleh Hanny</big>
-			         <big>Apa pembuktian untuk teorema limit tak terbatas dari</big>                   <img src="./assets/img/reply.jpg"/> <b><big>1 K</big></b>   <img src=./assets/img/views.jpg> <b><big>2 K</big></b>        <big>Jul 20, 2020, 6:36 PM</big>
-               <img src="./assets/img/turun.png"/> <big><big><b>24</b></big></big> <img src="./assets/img/upvote.jpg"/>       <big><big><big><b>Cat Air</b></big></big></big>                                                                                                 <big>oleh Fawwaz</big>
-			         <big>Apakah proporsi air yang saya gunakan baik untuk material canvas</big>     <img src="./assets/img/reply.jpg"/> <b><big>4.3 K</big></b> <img src=./assets/img/views.jpg> <b><big>5.3 K</big></b>     <big>Jul 20, 2020, 6:36 PM</big>
-</pre>
 
 </html>
