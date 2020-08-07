@@ -1,0 +1,76 @@
+.profpic:hover .profpic-pic {
+  opacity: 0.4;
+}
+
+.profpic:hover .profpic-chg {
+  opacity: 1;
+}
+
+.profpic-chg {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.profpic-chg.profpic-chg-text {
+  top: 12%;
+}
+
+.fas.fa-camera.profpic-chg.profpic-chg-icon {
+  top: 8%;
+}
+
+.profpic-pic {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.logo-ig: hover {
+  color: rgb(255,255,255);
+}
+
+.logo-ig {
+  background: linear-gradient(45deg, #405de6, #5851db 18%, #833ab4 36%, #c13584 54%, #e1306c 72%, #f1d1d1 100%);
+  color: rgb(255,255,255);
+  border-radius: 6px;
+  padding: 1px 3px 0px 3px;
+  text-align: center;
+}
+
+.logo-fb {
+  color: #4267b2;
+}
+
+.logo-in {
+  color: #2867b2;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+body {
+  background: url(../../assets/img/Minimal_mountain.png) no-repeat;
+  background-size: 100% 65%;
+  background-position: top;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #dddddd;
+  text-align: center;
+}
+
+.button-save {
+  color: rgb(0,0,0);
+  background-color: #00ffc2;
+}
+
+.button-save:hover {
+  color: rgb(255,255,255);
+  background-color: #007055d7;
+}
+
