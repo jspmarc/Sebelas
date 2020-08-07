@@ -1,0 +1,51 @@
+body {
+  border-radius: 200px;
+  background-color: rgb(226,225,225);
+  color: rgb(0,0,0);
+  border-style: none;
+  font-family: Raleway, sans-serif;
+}
+
+#back-image {
+  width: 100%;
+  height: 100vh;
+  background: url(../../assets/img/thought-catalog-505eectW54k-unsplash.jpg) center / cover no-repeat;
+}
+
+#search-field {
+  background-color: white;
+}
+
+#intro-page {
+  min-width: 0px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0px;
+  opacity: 1;
+}
+
+#home {
+  background: url(../../assets/img/thought-catalog-505eectW54k-unsplash.jpg) center / auto no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#jumbotron {
+  padding-top: 10vh;
+  color: rgb(255,255,255);
+  margin-top: 10px;
+}
+
+#button-shape {
+  border-radius: 30px;
+}
+
+#bottom-part .container.arrow-button {
+  max-width: 200px;
+}
+
+.row.padding {
+  margin-top: 10px;
+  background-color: #80c3da;
+}
+

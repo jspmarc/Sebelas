@@ -113,43 +113,36 @@
   background-color: transparent;
 }
 
-.h1 .question-no {
-  color: #000000;
+.card-title {
 }
 
-.question-no {
-  color: black;
+img {
+  padding: 5px;
+  /*width: 25px;*/
 }
 
-.far.fa-image.add-image-icon {
-  font-size: 40px;
+.card-body {
+  background-color: #E5E5E5;
+}
+
+.card-title {
   text-align: center;
 }
 
-.choice-numbering {
-  color: black;
+.col-4 {
+  padding: 10px;
 }
 
-.add-image {
-  color: black;
+p {
+  text-align: initial;
+  padding-top: 5px;
 }
 
-.btn.btn-primary.transition {
-  transition: .2s ease-in-out !important;
+.col-auto.text-center {
+  align-items: center;
 }
 
-.btn.btn-primary.button-submit:hover {
-  background-color: #02962b !important;
-  color: white !important;
-}
-
-button-delete:hover {
-  background-color: #670a04 !important;
-  color: white;
-}
-
-.button-delete:hover {
-  background-color: #a60d04 !important;
-  color: white !important;
+.col-auto.text-center.align-self-center.m-auto {
+  padding: 1px;
 }
 
