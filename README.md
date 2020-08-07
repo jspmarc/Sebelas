@@ -66,6 +66,7 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
   * probs\_exam-quiz.html
 * Josep Marcello (16519170):
   * probs\_add.html
+  * settings\_front.html
 * Muhammad Fawwaz Naabigh (16519184):
   * course.html
   * my-course.html
