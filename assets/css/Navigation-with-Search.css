@@ -113,36 +113,3 @@
   background-color: transparent;
 }
 
-.card-title {
-}
-
-img {
-  padding: 5px;
-  /*width: 25px;*/
-}
-
-.card-body {
-  background-color: #E5E5E5;
-}
-
-.card-title {
-  text-align: center;
-}
-
-.col-4 {
-  padding: 10px;
-}
-
-p {
-  text-align: initial;
-  padding-top: 5px;
-}
-
-.col-auto.text-center {
-  align-items: center;
-}
-
-.col-auto.text-center.align-self-center.m-auto {
-  padding: 1px;
-}
-

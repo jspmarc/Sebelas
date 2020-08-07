@@ -1,0 +1,168 @@
+body {
+  border-radius: 200px;
+  background-color: rgb(226,225,225);
+  color: rgb(0,0,0);
+  border-style: none;
+  font-family: Raleway, sans-serif;
+}
+
+#back-image {
+  width: 100%;
+  height: 100vh;
+  background: url(../../assets/img/thought-catalog-505eectW54k-unsplash.jpg) center / cover no-repeat;
+}
+
+#search-field {
+  background-color: white;
+}
+
+#intro-page {
+  min-width: 0px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0px;
+  opacity: 1;
+}
+
+#home {
+  background: url(../../assets/img/thought-catalog-505eectW54k-unsplash.jpg) center / auto no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+#jumbotron {
+  padding-top: 10vh;
+  color: rgb(255,255,255);
+  margin-top: 10px;
+}
+
+#button-shape {
+  border-radius: 30px;
+}
+
+#bottom-part .container.arrow-button {
+  max-width: 200px;
+}
+
+@media (min-width:1200px) {
+  #forum-box1 {
+    max-width: 1140px;
+    max-height: 85px;
+  }
+}
+
+@media (min-width:1200px) {
+  #forum-box1 {
+    max-width: 1140px;
+    max-height: 85px;
+  }
+}
+
+@media (min-width:768px) {
+  #forum-box1 {
+    max-width: 720px;
+    max-height: 54px;
+  }
+}
+
+@media (min-width:992px) {
+  #forum-box1 {
+    max-width: 960px;
+    max-height: 71.6px;
+  }
+}
+
+@media (min-width:576px) {
+  #forum-box1 {
+    max-width: 540px;
+    max-height: 40.27px;
+  }
+}
+
+@media (max-width:575px) {
+  #forum-box1 {
+    max-width: 450px;
+    max-height: 31.33px;
+  }
+}
+
+#forum-box1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+}
+
+@media (min-width: 1200px) {
+  #forum-box1-text {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 576px) {
+  #forum-box1-text {
+    font-size: 0.624em;
+  }
+}
+
+@media (min-width: 768px) {
+  #forum-box1-text {
+    font-size: 0.832em;
+  }
+}
+
+@media (max-width: 575px) {
+  #forum-box1-text {
+    font-size: 0.33em;
+  }
+}
+
+@media (min-width: 960px) {
+  #forum-box1-text {
+    font-size: 1.04em;
+  }
+}
+
+#forum-box2 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.h1, h1 {
+  font-size: 2rem;
+}
+
+.box2 {
+  display: flex;
+  align-items: normal;
+  background-color: white;
+  border-radius: 25px;
+  height: 200px;
+}
+
+.gray-text {
+  color: #8B8989;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.forum-title {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.kutip-balas {
+  text-align: right;
+}
+
+#kutip-balas {
+  padding-left: 480px;
+}
+
+.forum-question {
+  font-size: 17px;
+}
+
