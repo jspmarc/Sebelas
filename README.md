@@ -19,7 +19,7 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 |---------------------------|----------|
 | Muhmmad Jafar Gundari     | 16519070 |
 | Jonathan Richard Sugandhi | 16519089 |
-| Shafira Naya Aprisadianti | 16519089 |
+| Shafira Naya Aprisadianti | 16519112 |
 | Alief Nurliman            | 16519117 |
 | Raihan Fadhilah Ahmad     | 16519119 |
 | Alexander                 | 16519167 |
