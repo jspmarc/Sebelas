@@ -153,3 +153,10 @@ button-delete:hover {
   color: white !important;
 }
 
+.question {
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
