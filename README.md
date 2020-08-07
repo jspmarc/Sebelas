@@ -57,6 +57,7 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 * Muhammad Jafar Gundari (16519070):
   * index.html
   * base.html (nav-bar)
+  * course\_click.html
 * Jonathan Richard Sugandhi (16519089):
   * forum-click.html
 * Alief Nurliman (16519117)
