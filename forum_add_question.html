@@ -41,9 +41,10 @@
 
     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
-        .col-25, .col-75, input[type=submit] #pilihan {
+        .col-25, .col-75, .tombol, input[type=submit] #pilihan {
             width: 70%;
             margin-top: 0;
+            padding-top: 20px;
         }
     }
 
@@ -79,21 +80,18 @@
     </div> 
     <!-- pilihan menu -->
     <div class="container"><strong>
-        <nav id="pilihan" style="background-color: white; Padding : 10px;" >
-            <button class="button button1" style="border: none;color: black;padding: 5px 20px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #48D1CC;"><strong>Post</strong></button>&emsp;
-            <button class="button button2" style="border: none;color: black;padding: 5px 20px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color:#40E0D0;"><strong>Gambar</strong></button>&emsp;
-            <button class="button button3" style="border: none;color: black;padding: 5px 20px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #AFEEEE"><strong>Tautan</strong></button>&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <a href="#MyCourse" style="color: black">Kembali ke Forum</a>
-        </nav></strong>
+            <nav id="pilihan" style="background-color: white; Padding : 10px;" >
+                <button class="button button1" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #48D1CC;"><strong>Post</strong></button>&emsp;
+                <button class="button button2" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color:#40E0D0;"><strong>Gambar</strong></button>&emsp;
+                <button class="button button3" style="border: none;color: black;padding: 5px 15px;text-align: center;text-decoration: none;cursor: pointer;border-radius: 30px;background-color: #AFEEEE"><strong>Tautan</strong></button>&emsp;
+                <a href="#MyCourse" style="color: black; float: right;">Kembali ke Forum</a>
+            </nav></strong>
     </div>
     <br><br>
     
     <!-- isi form pertanyaan -->
     <div class="container">
-        <nav id="isi" style="background-color: white; Padding : 10px;" >
+        <nav id="isi" style="background-color: white; Padding : 10px;">
             <form action="action_page.php">
                 <div class="row">
                     <div class="col-75">
@@ -103,10 +101,11 @@
                         <textarea id="subject" name="postingan" placeholder="Masukan postingan di sini" style="height:200px"></textarea>
                     </div>
                   </div>
-                  <div class="row">
-                    <input type="submit" value="Perbaharui draft" style="background-color: #DCDCDC; color: black;padding: 5px 20px;border: none;border-radius: 10px;cursor: pointer;margin-left: 70%;">&emsp;
-                    <input type="submit" value="Publikasikan" style="background-color: #00CED1; color: black;padding: 5px 20px;border: none;border-radius: 10px;cursor: pointer;"> 
-                  </div>
+                      <div class="tombol" style="float: right; margin-right: 8%;">
+                        <input type="submit" value="Perbaharui draft" style="background-color: #DCDCDC; color: black;padding: 5px 15px;border: none;border-radius: 10px;cursor: pointer;">&emsp;
+                        <input type="submit" value="Publikasikan" style="background-color: #00CED1; color: black;padding: 5px 15px;border: none;border-radius: 10px;cursor: pointer;">
+                      </div> 
+                  <br><br>
                 </form>
             </form>
         </nav>
