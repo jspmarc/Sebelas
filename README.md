@@ -35,6 +35,7 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 # Kontributor<a name="kontributor"></a>
 
 ## Design<a name="kontributor-des"></a>
+[Link Figma](https://www.figma.com/file/UcuA324uCahOLBui7XPoF2/Untitled?node-id=0%3A1)
 * Alexander (16519167):
   * Design: landing page
   * Design: My course
@@ -56,13 +57,19 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 * Muhammad Jafar Gundari (16519070):
   * index.html
   * base.html (nav-bar)
-* Wilson Tandya (16519228):
-  * CourseMaterial.html
-* Josep Marcello (16519170):
-  * probs\_add.html
-* Raihan Fadhilah Ahmad (16519119)
-  * addcourse.html
-* Nabila Hannania (16519186)
-  * forum\_add\_question.html
 * Alief Nurliman (16519117)
   * forumlandingpage.html
+* Raihan Fadhilah Ahmad (16519119)
+  * addcourse.html
+  * enroll.html
+* Alexander (16519167):
+  * probs\_exam-quiz.html
+* Josep Marcello (16519170):
+  * probs\_add.html
+* Muhammad Fawwaz Naabigh (16519184):
+  * course.html
+  * my-course.html
+* Nabila Hannania (16519186)
+  * forum\_add\_question.html
+* Wilson Tandya (16519228):
+  * CourseMaterial.html
