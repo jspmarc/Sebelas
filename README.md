@@ -11,6 +11,7 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 * [Kontributor](#kontributor)
   * [Design](#kontributor-des)
   * [Front-End](#kontributor-fre)
+  * [Rsponsive Design](#responsive)
 
 ---
 
@@ -74,8 +75,10 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 * Josep Marcello (16519170):
   * probs\_add.html
   * probs\_add-Dropdown.js
+  * styles-probs\_add.css
   * settings\_front.html
   * pengaturan.js
+  * styles-settinngs-front.css
 * Muhammad Fawwaz Naabigh (16519184):
   * course.html (CSS di file HTML)
   * my-course.html (CSS di file HTML)
@@ -84,3 +87,20 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 * Wilson Tandya (16519228):
   * CourseMaterial.html
   * styles-CourseMaterial.css
+
+## Responsive Design<a name="responsive"></a>
+Bertanggung jawab untuk membuat design "bagus" ketika laman dibuka dengan
+gawai berlayar kecil
+* Muhammad Jafar Gundari (16519070):
+  - index.html
+  - base.html
+* Alief Nurliman (16519117)
+  - forumlandingpage.html
+* Alexander (16519167)
+  - probs\_exam-quiz.html
+* Josep Marcello (16519170)
+  - settings\_front.html
+* Nabila Hannania (16519186)
+  - forum\_add\_question.html
+* Wilson Tandya (16519228):
+  - CourseMaterial.html
