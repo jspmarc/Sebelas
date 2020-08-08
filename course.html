@@ -20,8 +20,7 @@
         border: none;
         padding: 5px 10px 5px 10px;
         box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
-        margin: auto 550px;
-    
+        margin: auto 550px 
     }
     .buat:hover {
         transform: scale(1.1);
@@ -97,7 +96,7 @@
         margin-left: 82em; 
         transform: scaleX(-1);
     }
-    .next-button:hover, {
+    .next-button:hover {
         transform: scale(1.1);
     }
     .next-button-right:hover {
@@ -122,23 +121,26 @@
 <body>
     <div id="navigation">
         <nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean-search" style="padding: 16px;margin-left: 0;color: rgb(0,0,0);background-color: #09b1ec;">
-            <div class="container"><a class="navbar-brand" href="#home" style="font-size: 25px;font-family: Raleway, sans-serif;">Eleven</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><a class="navbar-brand" href="#home" style="font-size: 25px;font-family: 'Playfair Display', serif;letter-spacing: 16px;">ELEVEN</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="border-color: rgb(0,0,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation">
                             <form class="form-inline mx-auto" target="_self">
-                                <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Search here . . ." style="width: 350px;"><i class="fa fa-search" style="margin-left: 5px;"></i></div>
+                                <div class="form-group"><label for="search-field"></label>
+                                    <div class="container-fluid d-flex align-items-stretch search-div"><input class="form-control search-field" type="search" id="search-field-2" name="search" placeholder="Cari di sini..." style="background-color: rgb(255,255,255);"><i class="fa fa-search d-flex d-sm-flex d-lg-flex d-xl-flex justify-content-center align-items-center align-items-sm-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                                            style="background-color: #0a80aa;padding-right: 10px;padding-left: 12px;"></i></div>
+                                </div>
                             </form>
                         </li>
-                        <li class="nav-item" role="presentation" style="color: black;"><a class="nav-link" href="#" style="color: rgb(0,0,0);">My Course</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Course</a></li>
+                        <li class="nav-item" role="presentation" style="color: black;"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Kelasku</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Kelas</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);">Forum</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);"><i class="fa fa-gear"></i>&nbsp;Settings</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgb(0,0,0);"><i class="fa fa-gear"></i>&nbsp;Pengaturan</a></li>
                     </ul>
+                </div>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

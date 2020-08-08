@@ -9,7 +9,7 @@
   margin-bottom: 0;
 }
 
-@media only screen and (min-width:768px) {
+@media (min-width:768px) {
   .navigation-clean-search {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -107,5 +107,9 @@
 
 .navigation-clean-search .form-inline .search-field:focus {
   border-bottom: 1px solid #ccc;
+}
+
+.jumbotron {
+  background-color: transparent;
 }
 
