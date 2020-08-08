@@ -56,24 +56,31 @@ Sebuah layanan _e-learning_ dari kelompok 11 SPARTA 2019
 ## Front-End<a name="kontributor-fre"></a>
 * Muhammad Jafar Gundari (16519070):
   * index.html
+  * styles-home.css
   * base.html (nav-bar)
   * course\_click.html
+  * styles-course\_click.css
 * Jonathan Richard Sugandhi (16519089):
   * forum-click.html
+  * styles-forum\_click.css
 * Alief Nurliman (16519117)
-  * forumlandingpage.html
+  * forumlandingpage.html (CSS di file HTML)
 * Raihan Fadhilah Ahmad (16519119)
-  * addcourse.html
-  * enroll.html
+  * addcourse.html (CSS di file HTML)
+  * enroll.html (CSS di file HTML)
 * Alexander (16519167):
   * probs\_exam-quiz.html
+  * styles-probs\_exam-quiz.html
 * Josep Marcello (16519170):
   * probs\_add.html
+  * probs\_add-Dropdown.js
   * settings\_front.html
+  * pengaturan.js
 * Muhammad Fawwaz Naabigh (16519184):
-  * course.html
-  * my-course.html
+  * course.html (CSS di file HTML)
+  * my-course.html (CSS di file HTML)
 * Nabila Hannania (16519186)
-  * forum\_add\_question.html
+  * forum\_add\_question.html (CSS di file HTML)
 * Wilson Tandya (16519228):
   * CourseMaterial.html
+  * styles-CourseMaterial.css
