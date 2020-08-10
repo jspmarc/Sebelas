@@ -1,0 +1,43 @@
+body {
+  border-radius: 200px;
+  background-color: rgb(226,225,225);
+  color: rgb(0,0,0);
+  border-style: none;
+  font-family: Raleway, sans-serif;
+}
+
+#button-shape {
+  border-radius: 30px;
+}
+
+#bottom-part .container.arrow-button {
+  max-width: 200px;
+}
+
+button {
+  width: 40%;
+  height: auto;
+  margin-top: 15px;
+}
+
+#content {
+  display: flex;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#tentang-kalkulus {
+  border-radius: 10px;
+}
+
+#konten-tersedia {
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
