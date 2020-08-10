@@ -42,7 +42,7 @@
     <h1 style="padding-left: 55px;color: rgb(0,0,0);margin-top: 107px;">Tambah Pertanyaan</h1>
     <div class="container" style="padding-top: 37px;">
         <div class="row row-cols-2" id="form-soal" style="margin-top: 11px;">
-            <div class="col-2 d-inline-flex flex-column justify-content-center align-items-center align-content-center align-self-center add-image" style="padding-top: 7px;">
+            <div class="col-12 col-md-2 d-inline-flex flex-column justify-content-center align-items-center align-content-center align-self-center add-image" style="padding-top: 7px;">
                 <div class="dropdown" style="background-color: #09b1ec;color: rgb(0,0,0);"><button class="btn btn-primary dropdown-toggle question-no" data-toggle="dropdown" aria-expanded="false" type="button" style="color: rgb(0,0,0);background-color: rgb(9,177,236);">1</button>
                     <div class="dropdown-menu" role="menu" id="question-no-menu"
                         style="background-color: rgb(9,177,236);"><a class="dropdown-item question-no-item" role="presentation" id="1" href="#">1</a><a class="dropdown-item question-no-item" role="presentation" id="add-no-item" href="#">Tambahkan</a></div>
@@ -51,10 +51,10 @@
                     <p>Tambahkan Gambar</p>
                 </div>
             </div>
-            <div class="col-10 question-form">
+            <div class="col-12 col-md-10 question-form">
                 <form><textarea class="form-control" id="soal" style="height: 162px;" placeholder="Soal..."></textarea></form>
             </div>
-            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">a.</span>
+            <div class="col-12 col-md-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">a.</span>
                 <div class="d-flex flex-column add-image" id="JawabanGambar-A" style="margin-left: 9px;border-width: 1px;border-style: solid;"><i class="far fa-image add-image-icon"></i>
                     <p>Tambahkan Gambar</p>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="JawabanBenar-A"><label class="form-check-label" for="formCheck-1" style="color: rgb(0,0,0);">Jawaban benar</label></div>
                 </form>
             </div>
-            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">b.</span>
+            <div class="col-12 col-md-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">b.</span>
                 <div class="d-flex flex-column add-image" id="JawabanGambar-B" style="margin-left: 9px;border-width: 1px;border-style: solid;"><i class="far fa-image add-image-icon"></i>
                     <p class="add-image-text">Tambahkan Gambar</p>
                 </div>
@@ -70,7 +70,7 @@
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="JawabanBenar-B" name="jawaban-benar" value="jawaban-benar"><label class="form-check-label" for="formCheck-1" style="color: rgb(0,0,0);">Jawaban benar</label></div>
                 </form>
             </div>
-            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">c.</span>
+            <div class="col-12 col-md-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">c.</span>
                 <div class="d-flex flex-column add-image" id="JawabanGambar-C" style="margin-left: 9px;border-width: 1px;border-style: solid;"><i class="far fa-image add-image-icon"></i>
                     <p>Tambahkan Gambar</p>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="JawabanBenar-C"><label class="form-check-label" for="formCheck-1" style="color: rgb(0,0,0);">Jawaban benar</label></div>
                 </form>
             </div>
-            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">d.</span>
+            <div class="col-12 col-md-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><span class="choice-numbering" style="padding-top: 30px;">d.</span>
                 <div class="d-flex flex-column add-image" style="margin-left: 9px;border-width: 1px;border-style: solid;"><i class="far fa-image add-image-icon" id="JawabanGambar-D"></i>
                     <p class="add-image-text">Tambahkan Gambar</p>
                 </div>
@@ -86,12 +86,9 @@
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="JawabanBenar-D"><label class="form-check-label" for="formCheck-1" style="color: rgb(0,0,0);">Jawaban benar</label></div>
                 </form>
             </div>
-            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><button class="btn btn-primary button-submit transition" type="button" style="color: rgb(0,0,0);background-color: #00ffc2;margin-right: 50%;">Simpan</button></div>
+            <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice" style="margin-top: 29px;"><button class="btn btn-primary button-submit transition" type="button" style="color: rgb(0,0,0);background-color: rgb(0,255,71);margin-right: 50%;">Simpan</button></div>
             <div class="col-6 d-inline-flex flex-row align-items-start align-content-start flex-nowrap question-choice"
                 style="margin-top: 29px;"><button class="btn btn-primary button-delete transition" id="remove-no-item" type="button" style="margin-right: 50%;color: rgb(0,0,0);background-color: rgb(255,62,50);">Hapus</button></div>
-            <div class="col">
-                <div></div>
-            </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
