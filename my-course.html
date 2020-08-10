@@ -2,19 +2,36 @@
 <html>
 
 <style>
+    .kontener {
+        width: 100%;
+        height: 100px;
+        margin: 20px 0 110px 0;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .inner-kontener1 {
+        width: 50%;
+        height: 100px;
+    }
+    .inner-kontener2 {
+        width: 50%;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content:baseline;
+    }
     .kelas {
         font-size: 50px;
         padding-top: 2em;
         background-color: #E2E1E1;
         border: none;
-        margin: auto 4em;
+        margin: auto 20px;
     }
     .selesai {
         background-color: #E2E1E1;
         font-size: 20px;
-        padding-right: 3em;
-        margin: auto 1em;
-        padding-left: 1em;
         border: none;
     }
     .selesai::after {
@@ -29,9 +46,6 @@
         border: none;
         background-color: #E2E1E1;
         font-size: 20px;
-        position: relative;
-        padding-right: 1em;
-        padding-left: 1em;
     }
     .proses::after {
         content: "  3  ";
@@ -44,8 +58,6 @@
         border: none;
         background-color: #E2E1E1;
         font-size: 20px;
-        padding-right: 1em;
-        padding-left: 5em;
     }
     .semua::after {
         content: "  5  ";
@@ -201,10 +213,17 @@
 
     <div>
         <div>
-            <button class="kelas" href="#">Kelasku</button>
-            <button class="selesai" href="#">Selesai</button>
-            <button class="proses" href="#">Dalam Proses</button>
-            <button class="semua" href="#">Semua</button>
+            <div class="kontener">
+                <div class="inner-kontener1">
+                    <button class="kelas" href="#">Kelasku</button>
+                </div>
+                <div class="inner-kontener2">
+                    <button class="selesai" href="#">Selesai</button>
+                    <button class="proses" href="#">Dalam Proses</button>
+                    <button class="semua" href="#">Semua</button>
+                </div>
+            </div>
+                
         </div>
         <div></div>
         <button class="card-1" href="#">
