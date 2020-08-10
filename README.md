@@ -100,6 +100,7 @@ gawai berlayar kecil
   - probs\_exam-quiz.html
 * Josep Marcello (16519170)
   - settings\_front.html
+  - course\_click.html
 * Nabila Hannania (16519186)
   - forum\_add\_question.html
 * Wilson Tandya (16519228):
